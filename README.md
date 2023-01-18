@@ -6,7 +6,7 @@ This is the PyTorch implementation of paper 'When Face Completion Meets Irregula
 * NVIDIA GPU + CUDA cuDNN
 # Installation
 * Clone this repo:  
-`git clone https://github.com/FVL2020/AttrFaceNet`  
+`git clone https://github.com/FVL2020/AttrFaceNet`
 `cd AttrFaceNet-master`  
 * Install Pytorch
 * Install python requirements:  
@@ -23,16 +23,16 @@ You can test the model on all three stages: 1) attribute prediction model, 2) in
 # Evaluating
 Run:  
 `python ./scripts/metrics.py --data-path [path to ground truth] --output-path [path to model output]`  
-Then run the "read_data.m" file to obtain PSNR, SSIM and Mean Absolute Error under different mask ratios. The "log_metrics.dat" and "log_test.dat" files are in the [output-path]:  
+Then run the "read_data.m" file to obtain PSNR, SSIM and Mean Absolute Error under different mask ratios. The "log_metrics.dat" and "log_test.dat" files are in the [output-path].
 To measure the Fréchet Inception Distance (FID score), run:  
 `python ./scripts/fid_score.py --path [path to validation, path to model output] --gpu [GPU id to use]`  
 # Citation
 Please cite us if you find this work helps.  
-`@inproceedings{AttrFaceNet,
-  title={When Face Completion Meets Irregular Holes: An Attributes Guided Deep Inpainting Network},
-  author={Xiao, Jie and Zhan, Dandan and Qi, Haoran and Jin, Zhi},
-  booktitle={ACM MM},
-  year={2021},
+`@inproceedings{AttrFaceNet,  
+  title={When Face Completion Meets Irregular Holes: An Attributes Guided Deep Inpainting Network},  
+  author={Xiao, Jie and Zhan, Dandan and Qi, Haoran and Jin, Zhi},  
+  booktitle={ACM MM},  
+  year={2021},  
 }`  
 # Appreciation
 The codes refer to EdgeConnect. Thanks for the authors of it！
