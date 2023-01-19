@@ -52,4 +52,5 @@ Please cite us if you find this work helps.
 ```
 # Appreciation
 The codes refer to EdgeConnect. Thanks for the authors of it！
-
+# License
+This repository is released under the MIT License as found in the LICENSE file. Code in this repo is for non-commercial use only.
