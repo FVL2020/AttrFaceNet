@@ -36,7 +36,7 @@ python test.py --model [stage] --checkpoints [path to checkpoints]
 ```
 # Weights
 We provide our pre-trained model in [BaiduNetdisk](https://pan.baidu.com/s/1wQ2jKZoJu0JoqotEDVHFmQ?pwd=3jl5 ).
-```
+
 # Evaluating
 Run:
 ```
