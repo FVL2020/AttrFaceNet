@@ -34,6 +34,9 @@ You can test the model on all three stages: 1) attribute prediction model, 2) in
 ```
 python test.py --model [stage] --checkpoints [path to checkpoints]
 ```
+# Weights
+We provide our pre-trained model in [BaiduNetdisk](https://pan.baidu.com/s/1wQ2jKZoJu0JoqotEDVHFmQ?pwd=3jl5 ).
+```
 # Evaluating
 Run:
 ```
